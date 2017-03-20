@@ -11,6 +11,14 @@ int main()
   #ifdef NDEBUG
   #error Must use scan-build in debug mode
   #endif
-  const int x{42};
-  std::cout << (x / (x-x)) << '\n';
+  // This error is missed
+  {
+    int v[3] = { 1, 4, 9};
+    std::cout << v[3] << '\n';
+  }
+  // This error is found
+  {
+    const int x{42};
+    std::cout << (x / (x-x)) << '\n';
+  }
 }
