@@ -16,9 +16,9 @@ int main()
     int v[3] = { 1, 4, 9};
     std::cout << v[3] << '\n';
   }
-  // This error is found
-  {
-    const int x{42};
-    std::cout << (x / (x-x)) << '\n';
-  }
+  // This error is found by the GCC compiler
+  //{
+  //  const int x{42};
+  //  std::cout << (x / (x-x)) << '\n';
+  //}
 }
