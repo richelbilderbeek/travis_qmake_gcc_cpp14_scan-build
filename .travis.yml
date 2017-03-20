@@ -12,9 +12,10 @@ install:
   - sudo apt-get install -qq g++-6
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 90
   # scan-build
-  - sudo apt-get install -qq clang-3.5
+  - sudo apt-get install -qq clang
 
 script: 
+  - clang -v
   # Build and run this project
   - scan-build qmake
   - scan-build make debug
