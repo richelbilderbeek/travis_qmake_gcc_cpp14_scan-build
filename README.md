@@ -30,3 +30,6 @@ Less complex builds:
 
  * No `cppcheck`: [travis_qmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14)
 
+## External links
+
+ * [http://clang-analyzer.llvm.org](http://clang-analyzer.llvm.org): scan-build homepage
