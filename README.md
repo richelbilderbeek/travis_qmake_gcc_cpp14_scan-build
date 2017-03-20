@@ -1,9 +1,9 @@
-# travis_qmake_gcc_cpp14_cppcheck
+# travis_qmake_gcc_cpp14_scan-build
 
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 ---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/)
+master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_scan-build.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_scan-build)
+develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_scan-build.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/)
 
 This GitHub is part of:
 
@@ -15,7 +15,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * C++ version: `C++14`
  * Libraries: `STL` only
  * Code coverage: none
- * Static code analysis: `cppcheck`
+ * Static code analysis: `scan-build`
  * Source: one single file, `main.cpp`
 
 More complex builds:

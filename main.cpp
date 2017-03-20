@@ -12,6 +12,8 @@ int main()
   #error Must use scan-build in debug mode
   #endif
   int a[3] = { 0, 1, 2 };
-  a[3] = 0; // Access violation!
-  std::cout << a[3] << f() << '\n';
+  a[4] = 0; // Access violation!
+  std::cout
+    << a[4] //Access violation!
+    << f() << '\n';
 }
