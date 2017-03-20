@@ -3,7 +3,6 @@
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 ---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_scan-build.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_scan-build)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_scan-build.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/)
 
 This GitHub is part of:
 
